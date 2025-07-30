@@ -36,12 +36,6 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
    python3 -m venv venv
    source venv/bin/activate      # on Windows: venv\Scripts\activate
    ```
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
 ---
 
 ## 🚴‍♀️ Quickstart
