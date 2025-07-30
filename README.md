@@ -22,7 +22,7 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
 
 ## 📂 Repository Structure
 
-
+```
 BreastCancerDetection/
 ├── data/
 │   └── data.csv            # Wisconsin Breast Cancer dataset (not committed)
@@ -39,7 +39,7 @@ BreastCancerDetection/
 └── README.md               # this file
 
 
----
+```
 
 ## ⚙️ Installation
 
