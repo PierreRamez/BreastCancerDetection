@@ -20,26 +20,7 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
 
 ---
 
-## 📂 Repository Structure
 
-```
-BreastCancerDetection/
-├── data/
-│   └── data.csv            # Wisconsin Breast Cancer dataset (not committed)
-├── notebooks/
-│   └── BreastCancer.ipynb  # EDA + prototype modeling
-├── src/
-│   ├── preprocess.py       # data cleaning & scaling
-│   ├── train.py            # model training & serialization
-│   └── evaluate.py         # metrics & plots
-├── models/                 # trained model artifacts
-├── outputs/                # generated plots & reports
-├── requirements.txt        # Python dependencies
-├── .gitignore              # ignore rules
-└── README.md               # this file
-
-
-```
 
 ## ⚙️ Installation
 
