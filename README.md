@@ -47,7 +47,7 @@ BreastCancerDetection/
    ```bash
    git clone https://github.com/your-username/BreastCancerDetection.git
    cd BreastCancerDetection
-  ``
+  
 
 2. Create & activate a virtual environment:
 
