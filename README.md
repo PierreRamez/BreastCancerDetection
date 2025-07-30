@@ -28,7 +28,7 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
    ```bash
    git clone https://github.com/your-username/BreastCancerDetection.git
    cd BreastCancerDetection
-  
+   ```
 
 2. Create & activate a virtual environment:
 
