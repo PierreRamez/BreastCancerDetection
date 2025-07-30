@@ -1,4 +1,3 @@
-```markdown
 # 🎗️ Breast Cancer Detection
 
 A fun, semi-formal demo of a Logistic Regression–based classifier to distinguish benign vs. malignant tumors using the Wisconsin dataset. Perfect as a portfolio piece—complete with EDA, preprocessing, modeling, and evaluation.
@@ -23,7 +22,6 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
 
 ## 📂 Repository Structure
 
-```
 
 BreastCancerDetection/
 ├── data/
@@ -40,7 +38,6 @@ BreastCancerDetection/
 ├── .gitignore              # ignore rules
 └── README.md               # this file
 
-````
 
 ---
 
@@ -50,7 +47,7 @@ BreastCancerDetection/
    ```bash
    git clone https://github.com/your-username/BreastCancerDetection.git
    cd BreastCancerDetection
-````
+  ``
 
 2. Create & activate a virtual environment:
 
