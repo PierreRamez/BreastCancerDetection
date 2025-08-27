@@ -37,10 +37,9 @@ Perfect as a portfolio piece—complete with EDA, preprocessing, modeling, bench
 
    ```bash
    python3 -m venv venv
-source venv/bin/activate      # on Windows: venv\Scripts\activate
+   source venv/bin/activate      # on Windows: venv\Scripts\activate
 
-   ```
----
+   
 
 ## 🚴‍♀️ Quickstart
 
