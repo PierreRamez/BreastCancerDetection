@@ -1,26 +1,29 @@
 # 🎗️ Breast Cancer Detection
 
-A fun, semi-formal demo of a Logistic Regression–based classifier to distinguish benign vs. malignant tumors using the Wisconsin dataset. Perfect as a portfolio piece—complete with EDA, preprocessing, modeling, and evaluation.
+A practical demo of breast cancer classification using the Wisconsin dataset.  
+Now extended beyond Logistic Regression to include **SVM** and **XGBoost**, with improved evaluation and validation.  
+Perfect as a portfolio piece—complete with EDA, preprocessing, modeling, benchmarking, and metrics.
 
 ---
 
 ## 🚀 Features
 
 - **Exploratory Data Analysis**: Seaborn visualizations of feature distributions, correlations, and class balance  
-- **Preprocessing Pipeline**:  
-  - Dropped irrelevant columns (`id`, low‑variance features)  
-  - Scaled features to zero mean & unit variance  
+- **Preprocessing**:  
+  - Dropped irrelevant columns (`id`, low-variance features)  
+  - Proper train/test split before scaling (fixes potential data leakage)  
 - **Modeling**:  
-  - Logistic Regression classifier  
-  - Reproducible train/test split (random seed)  
+  - Logistic Regression  
+  - Support Vector Machine (SVM)  
+  - XGBoost  
 - **Evaluation**:  
   - Confusion matrix  
   - Precision, recall, F1-score  
-  - ROC curve & AUC
+  - ROC curve & AUC  
+  - Cross-validation with stratification for reliable estimates  
+  - Training vs. inference time benchmarking  
 
 ---
-
-
 
 ## ⚙️ Installation
 
@@ -28,13 +31,14 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
    ```bash
    git clone https://github.com/your-username/BreastCancerDetection.git
    cd BreastCancerDetection
-   ```
+
 
 2. Create & activate a virtual environment:
 
    ```bash
    python3 -m venv venv
-   source venv/bin/activate      # on Windows: venv\Scripts\activate
+source venv/bin/activate      # on Windows: venv\Scripts\activate
+
    ```
 ---
 
@@ -59,13 +63,12 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
 
 ## 📈 Performance
 
-| Metric    | Score |
-| --------- | ----: |
-| Accuracy  | 95.6% |
-| Precision |  0.96 |
-| Recall    |  0.95 |
-| F1-Score  |  0.95 |
-| AUC       |  0.98 |
+| Model               |  F1-Score | ROC-AUC | Notes                        |
+| ------------------- | --------: | ------: | ---------------------------- |
+| Logistic Regression | **0.976** |   0.99+ | Strong baseline, very fast   |
+| SVM                 |     0.961 |   0.99+ | Competitive, efficient train |
+| XGBoost             |     0.953 |   0.99+ | Slightly lower, tunable      |
+
 
 ---
 
@@ -74,8 +77,10 @@ A fun, semi-formal demo of a Logistic Regression–based classifier to distingui
 PRs & issues welcome! Ideas:
 
 * Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
-* Alternative models (XGBoost, SVM)
 * Dockerization & CI/CD pipeline
+* Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
+* Feature engineering & dimensionality reduction
+* Deployment (Flask, Docker, or Streamlit app)
 
 ---
 
