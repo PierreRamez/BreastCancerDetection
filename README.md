@@ -77,7 +77,6 @@ PRs & issues welcome! Ideas:
 
 * Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
 * Dockerization & CI/CD pipeline
-* Hyperparameter tuning (GridSearchCV, RandomizedSearchCV)
 * Feature engineering & dimensionality reduction
 * Deployment (Flask, Docker, or Streamlit app)
 
